@@ -1,4 +1,4 @@
-//Search component to search for movie using api
+//seach component to search movie using tmbd api
 const Search = ({ searchTerm, setSearchTerm}) => {
   
     return (
