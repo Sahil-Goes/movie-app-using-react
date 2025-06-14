@@ -1,4 +1,4 @@
-![Movie App Banner](./public/banner.png)
+![Movie App Banner](./banner.jpeg)
 
 # 🎬 Movie App
 
@@ -8,7 +8,6 @@
 - [🔋 Features](#-features)
 - [🤸 Quick Start](#-quick-start)
 - [📁 Folder Structure](#-folder-structure-for-reference-optional)
-- [📸 Screenshots](#-screenshots-optional)
 - [🙌 Credits](#-credits)
 - [🪪 License](#-license)
 
@@ -65,10 +64,10 @@ npm install
 ### Step 3: 🛡️ Set Up Environment Variables
 Create a .env.local file in the root directory and add your credentials:
 ```bash
-VITE_TMDB_API_KEY = your_tmdb_api_key
-VITE_APPWRITE_PROJECT_ID = your_project_id
-VITE_APPWRITE_DATABASE_ID = your_database_id
-VITE_APPWRITE_COLLECTION_ID = your_collection_id
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
 ```
 
 ### Step 4: 🚀 Start the Development Server
