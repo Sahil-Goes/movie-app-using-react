@@ -15,7 +15,7 @@
 
 ## 🎬 Introduction
 
-A sleek and modern movie browsing app built with **React.js**, **Tailwind CSS**, **Vite**, and powered by **Appwrite** and **The Movie Database (TMDB) API**. Users can browse trending movies, search for titles, and explore rich movie content — all in a responsive and elegant UI.
+A sleek and modern movie browsing app built with **React.js**, **Tailwind CSS**, **Vite**, and powered by **Appwrite** and **The Movie Database (TMDB) API**. Users can browse trending movies, search for titles, and explore rich movie content — all in a responsive and elegant UI. Created a dynamically updated trending list which changes when users search for movies. Added Debounced Searching to optimize and reduce api calls.
 
 ---
 
@@ -75,6 +75,7 @@ VITE_APPWRITE_COLLECTION_ID=your_collection_id
 npm run dev
 ```
 
+---
 ### 📁 Folder Structure for Reference (Optional)
 ```lua
 movie-app/
@@ -91,13 +92,12 @@ movie-app/
 └── vite.config.js
 ```
 
-
+---
 ## 🙌 Credits
 - Project based on JSMastery's tutorial on YouTube.
 - Backend powered by Appwrite and data from TMDB.
 
-
 ## 🪪 License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-______
+---
